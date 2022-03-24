@@ -17,7 +17,7 @@ section {
 .container-content {
   /* scroll-snap-type: y mandatory; */
   overflow-y: scroll;
-  height: 100vh;
+  height: 93vh;
   position: relative;
 }
 
@@ -52,15 +52,42 @@ section {
   left: 0%;
   width: 300px;
 }
-
+@media (min-width: 310px) {
+  .logo {
+    top: 0%;
+    left: -4%;
+    width: 160px;
+  } 
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+  .logo {
+    left: 0%;
+    width: 200px;
+    top: 2%;
+  }
+}
+@media (min-width: 992px) {
+  .logo {
+    top: -2%;
+    left: 0%;
+    width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}
+/* ------------  */
 .two {
   /* background: rgb(211, 79, 79); */
   height: 55vh;
 }
 
 .three {
-  background: rgb(67, 91, 175);
-  height: 70vh;
+  /* background: rgb(67, 91, 175); */
+  height: 60vh;
 }
 
 .four {
@@ -97,10 +124,101 @@ section {
 
 .two-content{
   display: flex !important;
- 
   gap: 10px;
 }
 
 .two-content > div{
   margin: 10px;
 }
+
+@media (min-width: 310px) {
+  .two-content {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+  .two-content {
+    display: flex !important;
+    flex-wrap: nowrap;
+  }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}
+/* -------  */
+
+
+.three-content{
+  display: flex !important;
+  gap: 10px;
+}
+.three-content-first{
+  text-align: center;
+  padding-bottom: 7.5em;
+}
+.three-content-second{
+  text-align: center;
+  padding-top: 7.5em;
+}
+.three-text-head{
+  font-weight: bold;
+  line-height: 1.6em;
+  letter-spacing: 0.07em;
+  font-size: 1.75em;
+  color: #5a5a5a;
+}
+.three-text-body{
+  font-weight: 400;
+  line-height: 1.6em;
+  letter-spacing: 0.07em;
+  font-size: 1.25em;
+}
+
+@media (min-width: 310px) {
+  .three-content {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .three-content-first{
+    padding-bottom: 0;
+  }
+  .three-content-second{
+    padding-top: 0;
+  }
+  .three{
+    height: 90vh;
+  }
+}
+@media (min-width: 576px) {
+  .three{
+    height: 70vh;
+  }
+}
+@media (min-width: 768px) {
+  .three-content {
+    display: flex !important;
+    flex-wrap: nowrap;
+  }
+  .three-content-first{
+    padding-bottom: 7.5em;
+  }
+  .three-content-second{
+    padding-top: 7.5em;
+  }
+  .three{
+    height: 55vh;
+  }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}
+/* -------  */
