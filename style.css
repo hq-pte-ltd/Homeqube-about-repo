@@ -565,3 +565,80 @@ a:focus {
 .eight {
   height: 180vh;
 }
+
+/* nine  */
+.nine {
+  height: 70vh;
+  scroll-snap-align: start;
+  align-items: center;
+  justify-content: center;
+  display: flex !important;
+}
+.nine-content{
+  display: flex !important;
+  gap: 10px;
+}
+.nine-text-head{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-style: normal;
+  line-height: 2em;
+  font-size: 2.75rem;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+  text-align: left;
+}
+.nine-content-first{
+  height: 50vh;
+  width: 100%;
+}
+.nine-content-second{
+  height: 40vh;
+  width: 100vh !important;
+}
+
+@media (min-width: 310px) {
+  .nine-content {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .nine{
+    height: 50vh;
+  }
+  .nine-content-first{
+    height: auto;
+    width: auto;
+
+  }
+  .nine-content-second{
+    height: auto;
+    width: auto !important;
+  }
+}
+@media (min-width: 576px) {
+  .nine{
+    height: 70vh;
+  }
+}
+@media (min-width: 768px) {
+  .nine-content {
+    display: flex !important;
+    flex-wrap: nowrap;
+  }
+  .nine{
+    height: 1vh;
+  }
+  .nine-content-first{
+    height: 50vh;
+    width: 100%;
+  }
+  .nine-content-second{
+    height: 40vh;
+    width: 100vh !important;
+  }
+}
+/* -----  */
+
+
+
