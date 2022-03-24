@@ -8,35 +8,54 @@
 section {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   scroll-snap-align: start;
 }
 
 .container-content {
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory; */
   overflow-y: scroll;
   height: 100vh;
+  position: relative;
 }
 
 .one {
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 10px;
   background-image: url("img/HQ-BD-3.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat, no-repeat;
+  background-size: 1444px 1150px;
+  background-repeat: no-repeat no-repeat;
+  background-position: bottom;
 }
-.one h1 {
+.about {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 80px;
   letter-spacing: 10px;
+  font-style: normal;
+  line-height: 2em;
+  font-size: 80px;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+}
+.about-lead-text {
+  line-height: 1.6em;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+  text-transform: none;
+  font-size: 1.5em;
+  color: #5a5a5a;
+}
+
+.logo {
+  position: absolute;
+  top: -2%;
+  left: 0%;
+  width: 300px;
 }
 
 .two {
   background: rgb(211, 79, 79);
+  height: 75vh;
 }
 
 .three {
@@ -47,9 +66,14 @@ section {
   background: lightsalmon;
 }
 
-.logo {
+.text-lead {
   position: relative;
-  top: -105%;
-  left: 0%;
-  width: 300px;
+  top: -40%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.4em;
+  font-size: 1.5rem;
+  letter-spacing: 0em;
+  color: #5a5a5a;
 }
