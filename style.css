@@ -57,7 +57,7 @@ section {
     top: 0%;
     left: -4%;
     width: 160px;
-  } 
+  }
 }
 @media (min-width: 576px) {
 }
@@ -93,17 +93,16 @@ section {
 }
 
 .four {
+  display: flex;
   background: lightsalmon;
 }
 .five {
   display: flex;
   background: deepskyblue;
 }
-.six {
-  /* background: tan; */
-}
+
 .seven{
-  background: tan;
+  /* background: tan; */
 }
 
 .text-lead {
@@ -148,6 +147,9 @@ section {
     display: flex !important;
     flex-wrap: wrap;
   }
+  .two{
+    height: 75vh;
+  }
 }
 @media (min-width: 576px) {
 }
@@ -155,6 +157,9 @@ section {
   .two-content {
     display: flex !important;
     flex-wrap: nowrap;
+  }
+  .two{
+    height: 55vh;
   }
 }
 @media (min-width: 992px) {
@@ -288,18 +293,49 @@ section {
     display: flex !important;
     flex-wrap: wrap;
   }
+  .six {
+    height: 470vh;
+  }
+}
+@media (min-width: 350px) {
+  .six {
+    height: 360vh;
+  }
+}
+@media (min-width: 390px) {
+  .six {
+    height: 250vh;
+  }
+}
+@media (min-width: 442px) {
+  .six {
+    height: 200vh;
+  }
 }
 @media (min-width: 576px) {
+  .six {
+    height: 190vh;
+  }
 }
 @media (min-width: 768px) {
   .six-content {
     display: flex !important;
     flex-wrap: nowrap;
   }
+  .six {
+    height: 170vh;
+  }
+
 }
 @media (min-width: 992px) {
+  .six {
+    height: 125vh;
+  }
 }
 @media (min-width: 1200px) {
+  .six {
+    height: 100vh;
+  }
 }
 @media (min-width: 1400px) {
 }
@@ -307,12 +343,85 @@ section {
 
 /* PHILOSOPY CSS  */
 
-.six {
-  height: 100vh;
+.seven {
+  height: 50vh;
   scroll-snap-align: start;
   align-items: center;
   justify-content: center;
+  display: flex !important;
 }
-
-
+.seven-content{
+  display: flex !important;
+  gap: 10px;
+}
+.seven-text-head{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-style: normal;
+  line-height: 2em;
+  font-size: 3rem;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+  text-align: center;
+}
+.seven-content-first{
+  height: 40vh;
+  width: 100%;
+  padding-top: 100px;
+}
+.seven-content-second{
+  height: 40vh;
+  width: 100%;
+}
+.seven-text-body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 29vh;
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.6em;
+  font-size: 1em;
+  color: #5a5a5a;
+}
+@media (min-width: 310px) {
+  .seven-content {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .seven{
+    height: 100vh;
+  }
+  .seven-text-body::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+  }
+  
+  .seven-text-body::-webkit-scrollbar
+  {
+    width: 12px;
+    background-color: #F5F5F5;
+  }
+  
+  .seven-text-body::-webkit-scrollbar-thumb
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #5a5a5a;
+  }
+}
+@media (min-width: 576px) {
+  .seven{
+    height: 90vh;
+  }
+}
+@media (min-width: 768px) {
+  .seven-content {
+    display: flex !important;
+    flex-wrap: nowrap;
+  }
+  .seven{
+    height: 55vh;
+  }
+}
 /* -------  */
