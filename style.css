@@ -16,7 +16,7 @@ section {
 .container-content {
   /* scroll-snap-type: y mandatory; */
   overflow-y: scroll;
-  height: 93vh;
+  height: 100vh;
   position: relative;
 }
 
@@ -93,7 +93,6 @@ section {
 }
 
 .four {
-  display: flex;
   background: lightsalmon;
 }
 .five {
@@ -102,6 +101,9 @@ section {
 }
 .six {
   /* background: tan; */
+}
+.seven{
+  background: tan;
 }
 
 .text-lead {
@@ -301,4 +303,16 @@ section {
 }
 @media (min-width: 1400px) {
 }
+/* -------  */
+
+/* PHILOSOPY CSS  */
+
+.six {
+  height: 100vh;
+  scroll-snap-align: start;
+  align-items: center;
+  justify-content: center;
+}
+
+
 /* -------  */
