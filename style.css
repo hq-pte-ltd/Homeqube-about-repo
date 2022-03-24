@@ -58,15 +58,12 @@ section {
   height: 55vh;
 }
 
-.three {
-  /* background: rgb(67, 91, 175); */
-  height: 70vh;
-}
 
-.four {
+
+.three {
   height: 190vh;
 }  
-
+four
 .text-lead {
   position: relative;
   top: -40%;
@@ -112,7 +109,7 @@ section {
   content: "";
   background: #5e5e63;
   width: 2px;
-  height:156%;
+  height:179%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -220,7 +217,7 @@ a:hover, a:active, a:focus {
   .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
   }
-  .five{
+  .four{
    height: 426vh !important;
     
   }
@@ -231,40 +228,40 @@ a:hover, a:active, a:focus {
  
 }
 @media screen and (max-width: 850px){
-  .five{
+  .four{
     min-height: 474vh !important;
     
   }
 }
 @media screen and (max-width: 414px) {
-  .five{
+  .four{
     height: 644vh !important;
   }
 }
 @media screen and (max-width: 375px) {
-  .five{
+  .four{
     height: 885vh !important;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .five{
+  .four{
     height: 0vh !important;
   }
 }
 @media screen and (max-width: 393px) {
-  .five{
+  .four{
     height: 638vh !important;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .five{
+  .four{
     height: 800vh !important;
   }
 }
 
-.five{
+.four{
   height: 90vh;
   
 }
@@ -299,7 +296,7 @@ a:hover, a:active, a:focus {
 }
 
 @media screen and (max-width: 900px) and (min-width: 300px), (min-width: 1100px){
-  .four{
-    height: 449vh !important;
+  .three{
+    height: 376vh !important;
   }
 }
