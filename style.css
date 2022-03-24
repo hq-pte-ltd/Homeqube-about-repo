@@ -54,12 +54,13 @@ section {
 }
 
 .two {
-  background: rgb(211, 79, 79);
-  height: 75vh;
+  /* background: rgb(211, 79, 79); */
+  height: 55vh;
 }
 
 .three {
   background: rgb(67, 91, 175);
+  height: 70vh;
 }
 
 .four {
@@ -76,4 +77,30 @@ section {
   font-size: 1.5rem;
   letter-spacing: 0em;
   color: #5a5a5a;
+}
+
+
+.two-text-head, .two-text-body{
+  text-align: center !important;
+}
+.two-text-head p{
+  font-size: 2rem !important;
+  padding-bottom: 2em !important;
+  font-style: normal;
+}
+
+.two-text-body p{
+  font-size: 16px !important;
+}
+
+
+
+.two-content{
+  display: flex !important;
+ 
+  gap: 10px;
+}
+
+.two-content > div{
+  margin: 10px;
 }
