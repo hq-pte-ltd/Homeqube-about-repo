@@ -7,7 +7,6 @@
 
 section {
   height: 100vh;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -22,6 +21,7 @@ section {
 }
 
 .one {
+  display: flex;
   background-image: url("img/HQ-BD-3.png");
   background-size: 1444px 1150px;
   background-repeat: no-repeat no-repeat;
@@ -81,17 +81,27 @@ section {
 }
 /* ------------  */
 .two {
+  display: flex;
   /* background: rgb(211, 79, 79); */
   height: 55vh;
 }
 
 .three {
+  display: flex;
   /* background: rgb(67, 91, 175); */
   height: 60vh;
 }
 
 .four {
+  display: flex;
   background: lightsalmon;
+}
+.five {
+  display: flex;
+  background: deepskyblue;
+}
+.six {
+  /* background: tan; */
 }
 
 .text-lead {
@@ -213,6 +223,76 @@ section {
   }
   .three{
     height: 55vh;
+  }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}
+/* -------  */
+
+/* FOURTH CSS  */
+
+
+
+
+/* -------  */
+
+
+/* FIFTH CSS  */
+
+
+
+
+/* -------  */
+
+/* ADVISORY CSS  */
+.six {
+    height: 100vh;
+    scroll-snap-align: start;
+    align-items: center;
+    justify-content: center;
+}
+.six-heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-style: normal;
+  line-height: 2em;
+  font-size: 3rem;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+  text-align: center;
+}
+.six-text-head{
+  font-weight: 400;
+  line-height: 1.6em;
+  font-size: 1.25em;
+}
+.six-text-second-head{
+  font-weight: bold;
+  line-height: 1.6em;
+  font-size: 1em;
+}
+.six-text-body{
+  font-weight: 400;
+  line-height: 1.6em;
+  font-size: 1em;
+}
+@media (min-width: 310px) {
+  .six-content {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+  .six-content {
+    display: flex !important;
+    flex-wrap: nowrap;
   }
 }
 @media (min-width: 992px) {
