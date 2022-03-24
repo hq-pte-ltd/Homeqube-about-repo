@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rajdhani", sans-serif;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.container-content {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.one {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  background-image: url("img/HQ-BD-3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat, no-repeat;
+}
+.one h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 80px;
+  letter-spacing: 10px;
+}
+
+.two {
+  background: rgb(211, 79, 79);
+}
+
+.three {
+  background: rgb(67, 91, 175);
+}
+
+.four {
+  background: lightsalmon;
+}
+
+.logo {
+  position: relative;
+  top: -105%;
+  left: 0%;
+  width: 300px;
+}
