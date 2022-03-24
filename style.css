@@ -54,22 +54,18 @@ section {
 }
 
 .two {
-
   /* background: rgb(211, 79, 79); */
   height: 55vh;
 }
 
 .three {
-  
   /* background: rgb(67, 91, 175); */
   height: 70vh;
 }
 
 .four {
-
   height: 190vh;
-}  
-
+}
 
 .text-lead {
   position: relative;
@@ -83,40 +79,38 @@ section {
   color: #5a5a5a;
 }
 
-
-.two-text-head, .two-text-body{
+.two-text-head,
+.two-text-body {
   text-align: center !important;
 }
-.two-text-head p{
+.two-text-head p {
   font-size: 2rem !important;
   padding-bottom: 2em !important;
   font-style: normal;
 }
 
-.two-text-body p{
+.two-text-body p {
   font-size: 16px !important;
 }
 
-
-
-.two-content{
+.two-content {
   display: flex !important;
- 
+
   gap: 10px;
 }
 
-.two-content > div{
+.two-content > div {
   margin: 10px;
 }
 
 .timeline {
-   position: relative; 
+  position: relative;
 }
 .timeline::before {
   content: "";
   background: #5e5e63;
   width: 2px;
-  height:156%;
+  height: 156%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -143,7 +137,7 @@ section {
   width: 45%;
   padding: 100px 10px;
   border-radius: 10px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
 .timeline-img {
@@ -156,9 +150,11 @@ section {
   margin-top: 25px;
   margin-left: -15px;
 }
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   background: transparent;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 .timeline-card {
@@ -171,7 +167,7 @@ a:hover, a:active, a:focus {
   margin-left: 25px;
 }
 .timeline-item .timeline-img-header {
-  background: #FFFFFF;
+  background: #ffffff;
   background-size: cover;
 }
 .timeline-img-header {
@@ -179,7 +175,7 @@ a:hover, a:active, a:focus {
   position: relative;
   margin-bottom: 10px;
 }
-.timeline-img-header h2{
+.timeline-img-header h2 {
   color: #3636c0;
   position: absolute;
   bottom: 12px;
@@ -188,19 +184,19 @@ a:hover, a:active, a:focus {
 .blockquote {
   margin-top: 10px;
   color: #757575;
-  border-left-color: #3F51B5;
+  border-left-color: #3f51b5;
   padding: 0 0px;
 }
 .date {
   background: #535363;
   display: inline-block;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px;
   position: absolute;
   top: 0;
   right: 0;
 }
-.four-head{
+.four-head {
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
@@ -211,7 +207,7 @@ a:hover, a:active, a:focus {
 @media screen and (max-width: 1000px) {
   .timeline::before {
     left: 50px;
-    height:270%;
+    height: 270%;
   }
   .timeline .timeline-img {
     left: 50px;
@@ -224,88 +220,80 @@ a:hover, a:active, a:focus {
   .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
   }
-  .five{
-   height: 426vh !important;
-    
+  .five {
+    height: 426vh !important;
   }
-  .people-card{
+  .people-card {
     width: 90% !important;
   }
-
- 
 }
-@media screen and (max-width: 850px){
-  .five{
+@media screen and (max-width: 850px) {
+  .five {
     min-height: 474vh !important;
-    
   }
 }
 @media screen and (max-width: 414px) {
-  .five{
+  .five {
     height: 644vh !important;
   }
 }
 @media screen and (max-width: 375px) {
-  .five{
+  .five {
     height: 885vh !important;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .five{
+  .five {
     height: 0vh !important;
   }
 }
 @media screen and (max-width: 393px) {
-  .five{
+  .five {
     height: 638vh !important;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .five{
+  .five {
     height: 800vh !important;
   }
 }
 
-.five{
+.five {
   display: flex;
   height: 260vh;
-  
 }
 
-.five-top{
+.five-top {
   padding-top: 16em !important;
 }
-.card-group{ 
+.card-group {
   display: flex !important;
   gap: 20px;
 }
 
-.card-group > div{
+.card-group > div {
   margin: 10px !important;
 }
 
-
-
-.people-section{
+.people-section {
   justify-content: space-evenly;
 }
 
-.card-title{
+.card-title {
   font-size: 1.2rem;
- 
- 
 }
 
-.card-text{
-  font-size: .8rem;
+.card-text {
+  font-size: 0.8rem;
   line-height: 22px;
 }
 
-@media screen and (max-width: 900px) and (min-width: 300px), (min-width: 1100px){
-  .four{
-    height: 208vh !important;
+@media screen and (max-width: 900px) and (min-width: 300px),
+  (min-width: 1100px) {
+  .four {
+    height: 340vh !important;
   }
 }
 
@@ -404,7 +392,6 @@ a:hover, a:active, a:focus {
 @media (min-width: 1400px) {
 }
 
-
 /* -------  */
 /* ADVISORY CSS  */
 .six {
@@ -414,83 +401,81 @@ a:hover, a:active, a:focus {
   justify-content: center;
 }
 .six-heading {
-text-transform: uppercase;
-font-weight: bold;
-letter-spacing: 10px;
-font-style: normal;
-line-height: 2em;
-font-size: 3rem;
-letter-spacing: 0em;
-color: #5a5a5a;
-text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-style: normal;
+  line-height: 2em;
+  font-size: 3rem;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+  text-align: center;
 }
-.six-text-head{
-font-weight: 400;
-line-height: 1.6em;
-font-size: 1.25em;
+.six-text-head {
+  font-weight: 400;
+  line-height: 1.6em;
+  font-size: 1.25em;
 }
-.six-text-second-head{
-font-weight: bold;
-line-height: 1.6em;
-font-size: 1em;
+.six-text-second-head {
+  font-weight: bold;
+  line-height: 1.6em;
+  font-size: 1em;
 }
-.six-text-body{
-font-weight: 400;
-line-height: 1.6em;
-font-size: 1em;
+.six-text-body {
+  font-weight: 400;
+  line-height: 1.6em;
+  font-size: 1em;
 }
 @media (min-width: 310px) {
-.six-content {
-  display: flex !important;
-  flex-wrap: wrap;
-}
-.six {
-  height: 470vh;
-}
+  .six-content {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .six {
+    height: 470vh;
+  }
 }
 @media (min-width: 350px) {
-.six {
-  height: 360vh;
-}
+  .six {
+    height: 360vh;
+  }
 }
 @media (min-width: 390px) {
-.six {
-  height: 250vh;
-}
+  .six {
+    height: 250vh;
+  }
 }
 @media (min-width: 442px) {
-.six {
-  height: 200vh;
-}
+  .six {
+    height: 200vh;
+  }
 }
 @media (min-width: 576px) {
-.six {
-  height: 190vh;
-}
+  .six {
+    height: 190vh;
+  }
 }
 @media (min-width: 768px) {
-.six-content {
-  display: flex !important;
-  flex-wrap: nowrap;
-}
-.six {
-  height: 170vh;
-}
-
+  .six-content {
+    display: flex !important;
+    flex-wrap: nowrap;
+  }
+  .six {
+    height: 170vh;
+  }
 }
 @media (min-width: 992px) {
-.six {
-  height: 125vh;
-}
+  .six {
+    height: 259vh;
+  }
 }
 @media (min-width: 1200px) {
-.six {
-  height: 150vh;
-}
+  .six {
+    height: 210vh;
+  }
 }
 @media (min-width: 1400px) {
 }
-
 
 /* -----  */
 
@@ -503,11 +488,11 @@ font-size: 1em;
   justify-content: center;
   display: flex !important;
 }
-.seven-content{
+.seven-content {
   display: flex !important;
   gap: 10px;
 }
-.seven-text-head{
+.seven-text-head {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 10px;
@@ -518,16 +503,16 @@ font-size: 1em;
   color: #5a5a5a;
   text-align: center;
 }
-.seven-content-first{
+.seven-content-first {
   height: 40vh;
   width: 100%;
   padding-top: 100px;
 }
-.seven-content-second{
+.seven-content-second {
   height: 40vh;
   width: 100%;
 }
-.seven-text-body{
+.seven-text-body {
   overflow-x: hidden;
   overflow-y: scroll;
   height: 29vh;
@@ -542,29 +527,26 @@ font-size: 1em;
     display: flex !important;
     flex-wrap: wrap;
   }
-  .seven{
+  .seven {
     height: 100vh;
   }
-  .seven-text-body::-webkit-scrollbar-track
-  {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background-color: #F5F5F5;
+  .seven-text-body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
   }
-  
-  .seven-text-body::-webkit-scrollbar
-  {
+
+  .seven-text-body::-webkit-scrollbar {
     width: 12px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
   }
-  
-  .seven-text-body::-webkit-scrollbar-thumb
-  {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+
+  .seven-text-body::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #5a5a5a;
   }
 }
 @media (min-width: 576px) {
-  .seven{
+  .seven {
     height: 90vh;
   }
 }
@@ -573,8 +555,13 @@ font-size: 1em;
     display: flex !important;
     flex-wrap: nowrap;
   }
-  .seven{
+  .seven {
     height: 4vh;
   }
 }
 /* -------  */
+
+/* Seven */
+.eight {
+  height: 180vh;
+}
