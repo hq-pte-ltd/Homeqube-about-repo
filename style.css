@@ -602,19 +602,19 @@ a:focus {
 }
 @media (min-width: 1200px) {
   .six {
-    height: 140vh;
+    height: 230vh;
   }
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1300px) {
   .six {
-    height: 140vh;
+    height: 250vh;
   }
 }
 @media (min-width: 1400px) {
   .six {
     height: 180vh;
   }
-}
+} */
 
 /* -----  */
 
