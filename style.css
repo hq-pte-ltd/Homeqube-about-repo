@@ -605,7 +605,15 @@ a:focus {
     height: 140vh;
   }
 }
+@media (min-width: 1200px) {
+  .six {
+    height: 140vh;
+  }
+}
 @media (min-width: 1400px) {
+  .six {
+    height: 180vh;
+  }
 }
 
 /* -----  */
