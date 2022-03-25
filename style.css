@@ -394,10 +394,10 @@ blockquote {
     width: 30% !important;
   }
   .timeline::before {
-    height: 204% !important;
+    height: 172% !important;
   }
   .five{
-    height: 275vh !important;;
+    height: 275vh !important;
   }
 }
 @media (min-width: 992px) {
