@@ -1014,15 +1014,25 @@ blockquote {
   line-height: 2rem;
   letter-spacing: 0.1rem;
 }
+.pitch{
+  width: 1240px;
+  height: auto;
+  align-items: center;
+}
 
 @media (min-width: 310px) {
   .eleven {
     height: 370vh;
-  }
+  } 
+
 }
 @media (min-width: 350px) {
   .eleven {
     height: 300vh;
+  }
+  .pitch{
+    width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 390px) {
@@ -1045,6 +1055,20 @@ blockquote {
     height: 60vh;
   }
 }
+@media (min-width: 936px) {
+  .pitch{
+    width: 820px;
+    height: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .pitch{
+    width: 1240px;
+    height: 1064px;
+  }
+}
+
+
 .twelve {
   height: 222vh;
 }
