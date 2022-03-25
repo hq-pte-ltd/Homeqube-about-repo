@@ -108,13 +108,18 @@ section {
   text-align: center !important;
 }
 .two-text-head p {
-  font-size: 2rem !important;
-  padding-bottom: 2em !important;
+  line-height: 1.6em;
+  letter-spacing: 0.07em;
+  font-size: 1.5em;
+  padding-bottom: 1.5em !important;
   font-style: normal;
 }
 
 .two-text-body p {
-  font-size: 16px !important;
+  font-weight: 400;
+  line-height: 1.6em;
+  letter-spacing: 0.07em;
+  font-size: 1.25em;
 }
 
 .two-content {
@@ -928,7 +933,7 @@ a:focus {
 }
 
 .ten {
-  height: 167vh;
+  height: 140vh;
 }
 @media (min-width: 310px) {
   .ten {
@@ -944,7 +949,7 @@ a:focus {
 }
 @media (min-width: 576px) {
   .ten {
-    height: 167vh;
+    height: 120vh;
   }
 }
 @media (min-width: 768px) {
@@ -1010,7 +1015,7 @@ a:focus {
   letter-spacing: 10px;
   font-style: normal;
   line-height: 2em;
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 0em;
   color: #5a5a5a;
   text-align: center;
@@ -1038,7 +1043,7 @@ a:focus {
     height: 90%;
   }
   .twelve-heading {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
 @media (min-width: 420px) {
@@ -1048,7 +1053,7 @@ a:focus {
     height: 160vh;
   }
   .twelve-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 @media (min-width: 768px) {
@@ -1063,6 +1068,6 @@ a:focus {
     height: 513px;
   }
   .twelve-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
