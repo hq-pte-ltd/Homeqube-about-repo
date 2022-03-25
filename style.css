@@ -641,4 +641,81 @@ a:focus {
 /* -----  */
 
 
+.eight-heading{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-style: normal;
+  line-height: 2em;
+  font-size: 3rem;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+  text-align: center;
+}
 
+
+.ten-heading{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-style: normal;
+  line-height: 2em;
+  font-size: 3rem;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+  text-align: center;
+}
+
+.ten{
+  height: 167vh;
+}
+
+.eleven{
+  height: 38vh;
+}
+
+.eleven-heading{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-style: normal;
+  line-height: 2em;
+  font-size: 3rem;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+  text-align: center;
+}
+.eleven-para{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: .1rem;
+}
+
+.twelve{
+  height: 222vh;
+}
+.twelve-heading{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-style: normal;
+  line-height: 2em;
+  font-size: 3rem;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+  text-align: center;
+}
+
+.twelve-vid{
+  width: 912px;
+  height: 513px;
+}
+.twelve-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.twelve-container > div{
+  margin-bottom: 5em;
+}
