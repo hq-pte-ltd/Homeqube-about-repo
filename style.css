@@ -52,7 +52,32 @@ section {
   left: 0%;
   width: 300px;
 }
+@media (min-width: 310px) {
+  .logo {
+    top: -1%;
+    left: -5%;
+    width: 125px
+  }
+}
 
+@media (min-width: 420px) {
+  .logo {
+    top: -1%;
+    left: -2%;
+    width: 225px
+  }
+}
+@media (min-width: 576px) {
+  
+}
+@media (min-width: 768px) {
+  .logo {
+    position: absolute;
+    top: -2%;
+    left: 0%;
+    width: 300px;
+  }
+}
 .two {
   /* background: rgb(211, 79, 79); */
   height: 55vh;
@@ -393,6 +418,11 @@ a:focus {
 }
 @media (min-width: 360px) {
   .three {
+    height: 150vh;
+  }
+}
+@media (min-width: 390px) {
+  .three {
     height: 100vh;
   }
 }
@@ -430,6 +460,24 @@ a:focus {
 }
 
 @media (min-width: 310px) {
+  .two-content {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .two {
+    height: 80vh;
+  }
+}
+@media (min-width: 360px) {
+  .two-content {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .two {
+    height: 60vh;
+  }
+}
+@media (min-width: 420px) {
   .two-content {
     display: flex !important;
     flex-wrap: wrap;
@@ -628,7 +676,7 @@ a:focus {
 }
 @media (min-width: 350px) {
   .seven {
-    height: 50vh;
+    height: 75vh;
   }
 }
 @media (min-width: 410px) {
@@ -663,6 +711,25 @@ a:focus {
 }
 @media (min-width: 310px) {
   .eight {
+    height: 120vh;
+    padding-top: 250px;
+  }
+  .thumbnails{
+    display: none !important;
+  }
+  .carousel-pic{
+    width: 240px !important;
+    left: -36%;
+  }
+  .prev{
+      left:-36% !important
+  }
+  .next{
+    right: -40% !important;
+  }
+}
+@media (min-width: 360px) {
+  .eight {
     height: 80vh;
     padding-top: 250px;
   }
@@ -670,15 +737,21 @@ a:focus {
     display: none !important;
   }
   .carousel-pic{
+    width: 275px !important;
+    left: -36%;
+  }
+  .prev{
+      left:-36% !important
+  }
+  .next{
+    right: -40% !important;
+  }
+}
+@media (min-width: 390px) {
+  .carousel-pic{
     width: 300px !important;
     left: -36%;
   }
-  .prev{
-      left:-36% !important
-  }
-  .next{
-    right: -40% !important;
-  }
 }
 @media (min-width: 410px) {
   .eight {
@@ -686,7 +759,7 @@ a:focus {
     padding-top: 370px;
   }
   .carousel-pic{
-    width: 430px !important;
+    width: 320px !important;
     left: -36%;
   }
   .prev{
@@ -696,13 +769,13 @@ a:focus {
     right: -40% !important;
   }
 }
-@media (min-width: 410px) {
+@media (min-width: 490px) {
   .eight {
     height: 95vh;
     padding-top: 370px;
   }
   .carousel-pic{
-    width: 330px !important;
+    width: 440px !important;
     left: -36%;
   }
   .prev{
@@ -785,6 +858,24 @@ a:focus {
     width: auto !important;
   }
 }
+@media (min-width: 350px) {
+  .nine-content {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .nine{
+    height: 20vh;
+  }
+  .nine-content-first{
+    height: auto;
+    width: auto;
+
+  }
+  .nine-content-second{
+    height: auto;
+    width: auto !important;
+  }
+}
 @media (min-width: 576px) {
   .nine{
     height: 5vh;
@@ -840,6 +931,11 @@ a:focus {
 }
 @media (min-width: 310px) {
   .ten{
+    height: 100vh;
+  }
+}
+@media (min-width: 360px) {
+  .ten{
     height: 80vh;
   }
 }
@@ -880,11 +976,23 @@ a:focus {
 
 @media (min-width: 310px) {
   .eleven{
+    height: 370vh;
+  }
+}
+@media (min-width: 350px){
+  .eleven {
+    height: 300vh;
+  }
+}
+@media (min-width: 390px){
+  .eleven {
     height: 210vh;
   }
 }
 @media (min-width: 420px) {
- 
+  .eleven{
+    height: 150vh;
+  }
 }
 @media (min-width: 576px) {
   .eleven{
