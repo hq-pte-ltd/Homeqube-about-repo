@@ -139,7 +139,7 @@ section {
   content: "";
   background: #5e5e63;
   width: 2px;
-  height: 156%;
+  height:172%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -166,7 +166,7 @@ section {
   width: 45%;
   padding: 100px 10px;
   border-radius: 10px;
-  background: #ffffff;
+  background: #FFFFFF;
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
 .timeline-img {
@@ -179,11 +179,9 @@ section {
   margin-top: 25px;
   margin-left: -15px;
 }
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
   background: transparent;
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 .timeline-card {
@@ -196,7 +194,7 @@ a:focus {
   margin-left: 25px;
 }
 .timeline-item .timeline-img-header {
-  background: #ffffff;
+  background: #FFFFFF;
   background-size: cover;
 }
 .timeline-img-header {
@@ -205,38 +203,29 @@ a:focus {
   margin-bottom: 10px;
 }
 .timeline-img-header h2 {
-  color: #3636c0;
+  color: #3636C0;
   position: absolute;
   bottom: 12px;
   left: 20px;
 }
-.blockquote {
+blockquote {
   margin-top: 10px;
   color: #757575;
-  border-left-color: #3f51b5;
+  border-left-color: #3F51B5;
   padding: 0 0px;
 }
 .date {
   background: #535363;
   display: inline-block;
-  color: #ffffff;
+  color: #FFFFFF;
   padding: 10px;
   position: absolute;
   top: 0;
   right: 0;
 }
-.four-head {
-  font-size: 4rem;
-  font-weight: 700;
-  text-align: center;
-  font-style: bold;
-  padding-bottom: 2em;
-  color: #5a5a5a;
-}
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .timeline::before {
     left: 50px;
-    height: 270%;
   }
   .timeline .timeline-img {
     left: 50px;
@@ -249,13 +238,10 @@ a:focus {
   .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
   }
-  .five {
-    height: 426vh !important;
-  }
-  .people-card {
-    width: 90% !important;
-  }
+  
 }
+
+
 @media screen and (max-width: 850px) {
   .five {
     min-height: 474vh !important;
@@ -303,7 +289,14 @@ a:focus {
 }
 
 .card-group > div {
-  margin: 10px !important;
+  margin: 30px !important;
+  border: none;
+  border-radius: none;
+}
+
+.card-img-top{
+  border: 0;
+  border-radius: 0em !important;
 }
 
 .people-section {
@@ -329,25 +322,62 @@ a:focus {
   .four {
     height: 390vh !important;
   }
+  .people-card{
+    width: 100% !important;
+  }
+  .timeline::before {
+    height: 325% !important;
+  }
+
 }
 @media (min-width: 350px) {
   .four {
-    height: 260vh !important;
+    height: 300vh !important;
+  }
+  
+  .timeline::before {
+    height: 300% !important;
+  }
+  
+}
+
+@media (min-width: 375px) {
+  .five{
+    height: 818vh !important;
+  }
+  
+}
+@media (min-width: 390px) {
+  .five{
+    height: 582vh !important;
+  }
+  .timeline::before{
+    height: 235% !important;
   }
 }
 @media (min-width: 400px) {
   .four {
     height: 350vh !important;
   }
+  
 }
 @media (min-width: 410px) {
   .four {
     height: 250vh !important;
   }
+  .timeline::before{
+    height: 210% !important;
+  }
+  .five{
+    height: 570vh !important;
+  }
 }
 @media (min-width: 420px) {
   .four {
     height: 285vh !important;
+  }
+  .timeline::before {
+    height: 206% !important;
   }
 }
 @media (min-width: 490px) {
@@ -363,6 +393,15 @@ a:focus {
 }
 @media (min-width: 768px) {
   .four {
+    height: 275vh !important;
+  }
+  .people-card {
+    width: 30% !important;
+  }
+  .timeline::before {
+    height: 172% !important;
+  }
+  .five{
     height: 275vh !important;
   }
 }
@@ -1070,4 +1109,12 @@ a:focus {
   .twelve-heading {
     font-size: 2.5rem;
   }
+}
+.four-head {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  font-style: bold;
+  padding-bottom: 2em;
+  color: #5a5a5a;
 }
