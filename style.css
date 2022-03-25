@@ -321,6 +321,12 @@ a:focus {
     height: 285vh !important;
   }
 }
+@media (min-width: 490px) {
+  .four {
+    height: 315vh !important;
+  }
+}
+
 @media (min-width: 576px) {
   .four {
     height: 350vh !important;
@@ -387,7 +393,7 @@ a:focus {
 }
 @media (min-width: 360px) {
   .three {
-    height: 150vh;
+    height: 100vh;
   }
 }
 
@@ -429,7 +435,7 @@ a:focus {
     flex-wrap: wrap;
   }
   .two {
-    height: 75vh;
+    height: 50vh;
   }
 }
 @media (min-width: 576px) {
@@ -657,7 +663,8 @@ a:focus {
 }
 @media (min-width: 310px) {
   .eight {
-    height: 120vh;
+    height: 80vh;
+    padding-top: 250px;
   }
   .thumbnails{
     display: none !important;
@@ -667,14 +674,59 @@ a:focus {
     left: -36%;
   }
   .prev{
-
+      left:-36% !important
   }
   .next{
-    
+    right: -40% !important;
   }
 }
+@media (min-width: 410px) {
+  .eight {
+    height: 95vh;
+    padding-top: 370px;
+  }
+  .carousel-pic{
+    width: 430px !important;
+    left: -36%;
+  }
+  .prev{
+      left:-36% !important
+  }
+  .next{
+    right: -40% !important;
+  }
+}
+@media (min-width: 410px) {
+  .eight {
+    height: 95vh;
+    padding-top: 370px;
+  }
+  .carousel-pic{
+    width: 330px !important;
+    left: -36%;
+  }
+  .prev{
+      left:-36% !important
+  }
+  .next{
+    right: -40% !important;
+  }
+}
+    
 @media (min-width: 576px) {
-
+  .eight {
+    height: 120vh;
+  }
+  .carousel-pic{
+    width: auto !important;
+    left: 0%;
+  }
+  .prev{
+      left: 0% !important
+  }
+  .next{
+    right: 0% !important;
+  }
 }
 @media (min-width: 768px) {
   .thumbnails{
@@ -685,7 +737,7 @@ a:focus {
 
 /* nine  */
 .nine {
-  height: 70vh;
+  height: 90vh;
   scroll-snap-align: start;
   align-items: center;
   justify-content: center;
@@ -721,7 +773,7 @@ a:focus {
     flex-wrap: wrap;
   }
   .nine{
-    height: 50vh;
+    height: 8vh;
   }
   .nine-content-first{
     height: auto;
@@ -735,7 +787,7 @@ a:focus {
 }
 @media (min-width: 576px) {
   .nine{
-    height: 70vh;
+    height: 5vh;
   }
 }
 @media (min-width: 768px) {
@@ -744,7 +796,7 @@ a:focus {
     flex-wrap: nowrap;
   }
   .nine{
-    height: 1vh;
+    height: 50vh;
   }
   .nine-content-first{
     height: 50vh;
@@ -786,9 +838,27 @@ a:focus {
 .ten{
   height: 167vh;
 }
+@media (min-width: 310px) {
+  .ten{
+    height: 80vh;
+  }
+}
+@media (min-width: 420px) {
+ 
+}
+@media (min-width: 576px) {
+  .ten{
+    height: 167vh;
+  }
+}
+@media (min-width: 768px) {
+ 
+}
+
+
 
 .eleven{
-  height: 38vh;
+  height: 60vh;
 }
 
 .eleven-heading{
@@ -808,6 +878,25 @@ a:focus {
   letter-spacing: .1rem;
 }
 
+@media (min-width: 310px) {
+  .eleven{
+    height: 210vh;
+  }
+}
+@media (min-width: 420px) {
+ 
+}
+@media (min-width: 576px) {
+  .eleven{
+    height: 130vh;
+  }
+}
+@media (min-width: 768px) {
+  .eleven{
+    height: 60vh;
+  }
+
+}
 .twelve{
   height: 222vh;
 }
@@ -835,4 +924,42 @@ a:focus {
 
 .twelve-container > div{
   margin-bottom: 5em;
+}
+@media (min-width: 310px) {
+  .twelve{
+    height: 160vh;
+    }
+    .twelve-vid{
+      width: 90%;
+      height: 90%;
+    }
+    .twelve-heading{
+      font-size: 2rem;
+    }
+}
+@media (min-width: 420px) {
+ 
+}
+@media (min-width: 576px) {
+  .twelve{
+    height: 160vh;
+  }
+  .twelve-heading{
+    font-size: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .twelve{
+    height: 222vh;
+  }
+}
+
+@media (min-width: 936px) {
+  .twelve-vid{
+    width: 912px;
+    height: 513px;
+  }
+  .twelve-heading{
+    font-size: 3rem;
+  }
 }
