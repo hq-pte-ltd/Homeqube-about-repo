@@ -400,7 +400,7 @@ blockquote {
     width: 30% !important;
   }
   .timeline::before {
-    height: 195% !important;
+    height: 190% !important;
   }
   .five{
     height: 310vh !important;
@@ -1211,4 +1211,22 @@ input:not(:disabled){
 #text-error{
   color: rgb(245, 72, 72);
 
+}
+
+@media (min-width: 540px) and  (min-width: 400px){
+  .three{
+    height: 90vh !important;
+  }
+  .timeline::before{
+    height: 251% !important;
+  }
+  .five{
+    height: 663vh !important;
+  }
+  .eleven{
+    height: 180vh !important;
+  }
+  .twelve{
+    height: 170vh !important;
+  }
 }
