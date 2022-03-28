@@ -1144,6 +1144,7 @@ blockquote {
   color: #5a5a5a;
 }
 
+
 .card{
   box-shadow:none !important;
   
@@ -1151,4 +1152,59 @@ blockquote {
 
 .card-body{ 
   padding-bottom: 5em !important;
+=======
+/* ============ */
+
+.full-bg{
+  background: url('img/Alt-Homeqube-logo-standard@2x.png'), #2f2f2f;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.input_text{
+  position: fixed;
+  bottom: 50px;
+  left: 29px;
+}
+
+.password-control{
+  padding-top: .3em;
+  padding-bottom: .3em;
+  padding-left: .3em;
+  background-color: #545459 !important;
+  border: none !important;
+  width: 200px;
+  color: #F1F1F8;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.btn-sub{
+  background-color: #545459 !important;
+  border-radius: 0em !important;
+}
+
+.btn-sub i{
+  color: #F1F1F8 !important; 
+}
+
+input[type="password"]{
+  background-color: #545459 !important;
+  border: none !important;
+  color: #F1F1F8 !important;
+}
+
+input[type="password"]:focus{
+  outline: none !important;
+}
+
+input:not(:disabled){
+  outline: none !important;
+}
+#text-error{
+  color: rgb(245, 72, 72);
+
 }
