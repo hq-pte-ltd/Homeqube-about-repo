@@ -400,7 +400,7 @@ blockquote {
     width: 30% !important;
   }
   .timeline::before {
-    height: 180% !important;
+    height: 179% !important;
   }
   .five{
     height: 293vh !important;
@@ -1065,7 +1065,7 @@ blockquote {
 @media (min-width: 1200px) {
   .pitch{
     width: 1240px;
-    height: 1064px;
+    height: 798px;
   }
 }
 
@@ -1150,9 +1150,13 @@ blockquote {
   
 }
 
-.card-body{ 
+.card-body{
+  padding-top: 2em !important;
+  padding-right: 0 !important; 
+  padding-left: 0 !important;
   padding-bottom: 5em !important;
-=======
+
+}
 /* ============ */
 
 .full-bg{
