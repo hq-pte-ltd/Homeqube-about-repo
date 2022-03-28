@@ -333,7 +333,7 @@ blockquote {
 }
 @media (min-width: 350px) {
   .four {
-    height: 300vh !important;
+    height: 326vh !important;
   }
   
   .timeline::before {
@@ -344,7 +344,7 @@ blockquote {
 
 @media (min-width: 375px) {
   .five{
-    height: 818vh !important;
+    height: 783vh !important;
   }
   
 }
@@ -394,16 +394,16 @@ blockquote {
 }
 @media (min-width: 768px) {
   .four {
-    height: 217vh !important;
+    height: 251vh !important;
   }
   .people-card {
     width: 30% !important;
   }
   .timeline::before {
-    height: 179% !important;
+    height: 195% !important;
   }
   .five{
-    height: 293vh !important;
+    height: 310vh !important;
   }
 }
 @media (min-width: 992px) {
@@ -597,7 +597,7 @@ blockquote {
 }
 @media (min-width: 370px) {
   .six {
-    height: 590vh;
+    height: 375vh;
   }
 }
 @media (min-width: 390px) {
@@ -645,7 +645,7 @@ blockquote {
 }
 @media (min-width: 1200px) {
   .six {
-    height: 150vh;
+    height: 160vh;
   }
 }
 /* @media (min-width: 1300px) {
@@ -727,7 +727,7 @@ blockquote {
 }
 @media (min-width: 350px) {
   .seven {
-    height: 75vh;
+    height: 95vh;
   }
 }
 @media (min-width: 410px) {
@@ -751,7 +751,7 @@ blockquote {
     flex-wrap: nowrap;
   }
   .seven {
-    height: 1vh;
+    height: 14vh;
   }
 }
 /* -------  */
@@ -913,7 +913,7 @@ blockquote {
     flex-wrap: wrap;
   }
   .nine {
-    height: 20vh;
+    height: 50vh;
   }
   .nine-content-first {
     height: auto;
@@ -996,7 +996,7 @@ blockquote {
 }
 
 .eleven {
-  height: 60vh;
+  height: 80vh;
 }
 
 .eleven-heading {
