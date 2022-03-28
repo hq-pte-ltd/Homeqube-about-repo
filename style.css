@@ -400,7 +400,7 @@ blockquote {
     width: 30% !important;
   }
   .timeline::before {
-    height: 190% !important;
+    height: 173% !important;
   }
   .five{
     height: 310vh !important;
@@ -1213,12 +1213,12 @@ input:not(:disabled){
 
 }
 
-@media (min-width: 540px) and  (min-width: 400px){
+@media (max-width: 700px) and  (min-width: 450px){
   .three{
     height: 90vh !important;
   }
   .timeline::before{
-    height: 251% !important;
+    height: 253% !important;
   }
   .five{
     height: 663vh !important;
