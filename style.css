@@ -113,6 +113,7 @@ section {
   font-size: 1.5em;
   padding-bottom: 1.5em !important;
   font-style: normal;
+  font-weight: bold;
 }
 
 .two-text-body p {
@@ -393,16 +394,16 @@ blockquote {
 }
 @media (min-width: 768px) {
   .four {
-    height: 275vh !important;
+    height: 217vh !important;
   }
   .people-card {
     width: 30% !important;
   }
   .timeline::before {
-    height: 172% !important;
+    height: 176% !important;
   }
   .five{
-    height: 275vh !important;
+    height: 293vh !important;
   }
 }
 @media (min-width: 992px) {
@@ -644,7 +645,7 @@ blockquote {
 }
 @media (min-width: 1200px) {
   .six {
-    height: 230vh;
+    height: 150vh;
   }
 }
 /* @media (min-width: 1300px) {
@@ -1121,7 +1122,7 @@ blockquote {
 }
 @media (min-width: 768px) {
   .twelve {
-    height: 315vh;
+    height: 235vh;
   }
 }
 
@@ -1141,4 +1142,13 @@ blockquote {
   font-style: bold;
   padding-bottom: 2em;
   color: #5a5a5a;
+}
+
+.card{
+  box-shadow:none !important;
+  
+}
+
+.card-body{ 
+  padding-bottom: 5em !important;
 }
