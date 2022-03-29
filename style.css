@@ -345,6 +345,43 @@ section {
   left: 50%;
   transform: translate(-50%,10%);
 }
+@media (min-width: 310px) {
+  .timeline::before {
+    height:85%;
+    transform: translate(-50%,11%);
+  }
+}
+@media (min-width: 350px) {
+ 
+}
+@media (min-width: 390px) {
+ 
+}
+@media (min-width: 420px) {
+  .timeline::before {
+    height:85%;
+    transform: translate(-50%,12%);
+  }
+}
+@media (min-width: 576px) {
+  .timeline::before {
+    height:85%;
+    transform: translate(-50%,12.5%);
+  }
+}
+@media (min-width: 768px) {
+  .timeline::before {
+    height: 80%;
+    transform: translate(-50%,14%);
+  }
+
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}
 .timeline-item {
   width: auto;
   margin-bottom: 69px;
@@ -786,6 +823,22 @@ blockquote {
   .thumbnails {
     display: flex !important;
   }
+  .eight {
+    height: 75%;
+  }
+  .eight {
+    padding-top: 1em;
+  }
+}
+@media (min-width: 900px) {
+  .eight {
+    height: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .eight {
+    height: 80%;
+  }
 }
 
 /* nine  */
@@ -808,6 +861,9 @@ blockquote {
  
 }
 @media (min-width: 420px) {
+  .nine {
+    height: 75%;
+  }
 }
 @media (min-width: 576px) {
 }
@@ -936,12 +992,22 @@ blockquote {
 }
 @media (min-width: 768px) {
   .ten {
+    height: 75%;
+  }
+}
+@media (min-width: 900px) {
+  .ten {
     height: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .ten {
+    height: 125%;
   }
 }
 
 .eleven {
-  height: 100%;
+  height: 150%;
 }
 @media (min-width: 310px) {
   .eleven {
@@ -1002,15 +1068,19 @@ blockquote {
  
 }
 @media (min-width: 576px) {
- 
+  .pitch{
+    height: 300px;
+  }
 }
 @media (min-width: 768px) {
- 
+  .pitch{
+    height: 450px;
+  }
 }
 @media (min-width: 936px) {
   .pitch{
     width: 820px;
-    height: auto;
+    height: 500px;
   }
 }
 @media (min-width: 1200px) {
