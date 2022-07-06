@@ -15,7 +15,7 @@ function validation(){
     
     var password = document.getElementById("PasswordInput").value;
     const errormsg = document.getElementById("text-error");       
-        if(password=="345"){
+        if(password=="Cielo1978!"){
 
             return window.location.href="about.html";
         }else{
